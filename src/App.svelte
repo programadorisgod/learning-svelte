@@ -26,5 +26,5 @@ Accept terms and conditions
 {#if accept}gt#trKs13283886
      <p>Accepted</p>
 {:else }
- <p>No accept</p>
+ <p style="color: red;">No accept</p>
 {/if}
