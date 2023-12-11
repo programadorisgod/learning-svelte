@@ -23,8 +23,8 @@
 Accept terms and conditions
 </label>
 
-{#if accept}gt#trKs13283886
+{#if accept}
      <p>Accepted</p>
 {:else }
- <p style="color: red;">No accept</p>
+ <p style="color: re;">No accept</p>
 {/if}
