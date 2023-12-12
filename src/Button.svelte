@@ -5,11 +5,17 @@
         alert(`Hello ${name}!`);
     }
 
-    function handleState(name){
-        if (name === undefined || name === null || name === "") return true;
+    function handleState(name) {
 
-        return false;
-    } 
+        if (name === undefined || name === null || name === "") {
+
+            return true;
+
+        } 
+
+     return false;
+
+    }
 
 </script>
 
