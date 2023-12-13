@@ -1,7 +1,9 @@
 <script>
+// @ts-nocheck
+
     import Input from "./Input.svelte";
-    import ButtonCounter from "./ButtonCounter.svelte";
-    import {Confetti} from 'svelte-confetti';
+    import CanvasConfetti from 'https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/+esm';
+
   import Buttons from "./Buttons.svelte";
 
     let accept = false;
@@ -34,7 +36,7 @@
     {#if accept}
 
         <p>Accepted</p>
-         <Confetti />
+        {CanvasConfetti()}
 
     {:else }
 
